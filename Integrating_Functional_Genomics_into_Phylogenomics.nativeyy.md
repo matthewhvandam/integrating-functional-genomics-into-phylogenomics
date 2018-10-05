@@ -13,7 +13,7 @@ tree reconstructions. (2018).*
 Corresponding author: Matthew H. Van Dam, email:
 (<matthewhvandam@gmail.com>)
 
-<!-- TOC -->
+[toc]
 		[1. **Identify where a UCE loci is found in the
 genome**](#header-n513)  
 		[1a. **baltq.sh the probes** to find where they are hiding in the
