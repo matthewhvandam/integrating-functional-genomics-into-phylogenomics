@@ -13,7 +13,8 @@ tree reconstructions. (2018).*
 Corresponding author: Matthew H. Van Dam, email:
 (<matthewhvandam@gmail.com>)
 
-[toc]
+
+<!--TOC-->
 		[1. **Identify where a UCE loci is found in the
 genome**](#header-n513)  
 		[1a. **baltq.sh the probes** to find where they are hiding in the
@@ -28,7 +29,7 @@ gene**](#header-n87)
 		[5. **Round up the bootstrap files paths and best tree files for
 ASTRAL**](#header-n393)
 
-<!-- /TOC -->
+<!--/TOC-->
 
 ### 1. **Identify where a UCE loci is found in the genome** {#header-n513}
 
