@@ -683,11 +683,11 @@ You should have something like the following in your main directory
 uce-805.phylip  ##thousands/hundreds of uce phylip files
 
 concat_set_96 ## hundreds of concat_set_# directories
-			  ## concat_set_# with multiple dirs inside e.g. uce-#.phylips 
+		## concat_set_# with multiple dirs inside e.g. uce-#.phylips 
 	   		concat_set_96/uce-1094.phylipnew/ uce-1094.phylip  
-           concat_set_96/uce-1933.phylipnew/ uce-1933.phylip
-              ## the nexus files used in PHYLUCE to concatenate
-           concat_set_96/uce-1094.phylip.nexus uce-1933.phylip.nexus 
+                        concat_set_96/uce-1933.phylipnew/ uce-1933.phylip
+                ## the nexus files used in PHYLUCE to concatenate
+                        concat_set_96/uce-1094.phylip.nexus uce-1933.phylip.nexus 
 
 concat_set_96concat_partitionedbygenephy  # hundereds of directory with concatenated file and character set from PHYLUCE + RAxML results
 
