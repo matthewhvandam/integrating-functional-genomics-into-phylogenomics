@@ -644,7 +644,9 @@ cmd[[i]] = paste(getwd(), "/run_RAxML.sh ", phy_files_list[i], sep="")
 
 }
 
-# make sure your system has 48 cores or change the 48 to an appropriate number of cores. Some of the concatented sets are long alignments, it may go a little slower for the short alignments using more cores than needed but really slow for the long ones using far too few, it goes quickly enough
+# make sure your system has 48 cores or change the 48 to an appropriate number of cores. Some of the concatented sets are
+long alignments, it may go a little slower for the short alignments using more cores than needed but really slow for the
+long ones using far too few, it goes quickly enough
 
 final_raxml = mclapply(cmd, system, mc.cores=getOption("mc.cores", 8))  ### 6 X mc.cores 8 = 48 cores
 
@@ -655,9 +657,12 @@ final_raxml = mclapply(cmd, system, mc.cores=getOption("mc.cores", 8))  ### 6 X 
 
 
 
-Now that we have made the gene trees for the concatenated UCEs in a gene, we need to make the gene trees for the rest plus the originals "those individual UCEs that got concatenated ". 
+Now that we have made the gene trees for the concatenated UCEs in a gene, we need to make the gene trees for the rest plus
+the originals "those individual UCEs that got concatenated ". 
 
-We will move all the original phylips that got concatenated into their own directories. Using  unix script that can be simply pasted into in the terminal, this is not strictly necessary, I did this as it helped later in comparisons between subsets of these data. 
+We will move all the original phylips that got concatenated into their own directories. Using  unix script that can be
+simply pasted into in the terminal, this is not strictly necessary, I did this as it helped later in comparisons between
+subsets of these data. 
 
 ```shell
 ## unix terminal
