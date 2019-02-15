@@ -83,7 +83,7 @@ blatq.sh GCA_000344095.2_Aros_2.0_genomic.fna athros1_individual_probes.fasta at
 
 You can typically find these annotation files from genbank. Here you will want to locate the **RefSeq** assembly for your taxon, and dowload the "**genomic.gff.gz**" file and unzip it into your directory. Once you have it, the introns can then be inserted into the file. This in not nessessary to do for matching the UCEs to genes in the GFF, but will come in handy when you want to get fancy with partitioning or categorizing the UCEs by feature (intronic, exonic, intergenic).
 
-Below is **R** the code we used in the paper (link) and we have an updated version of the code here (link). It has been tested on linux. 
+Below is **R** the code we used in the paper (link) and we have an updated version of the code here (https://github.com/calacademy-research/ccgutils/tree/master/uce_types). It has been tested on linux. 
 
 
 
